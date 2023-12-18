@@ -2,7 +2,7 @@
 
 # Config
 # The submission file to be used
-submission_file=tutorialsubmission.py
+submission_file=main.py
 
 # Number of submissions to play with
 # (remember to update the corresponding config in the game engine)
