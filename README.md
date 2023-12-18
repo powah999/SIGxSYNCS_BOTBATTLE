@@ -10,7 +10,7 @@ Please checkout our high-level [(not so) Super Auto Pets game rundown](https://s
 - The scripts have been designed for Unix environments (note: they work on WSL2)
 
 ### Scripts
-To run the game engine, all you have to do is execute the `run_test_env.sh` script. Without any flags, it will copy the `tutorialsubmission.py` for each player and run the game engine to completion. It does this by creating a testing subdirectory `testing_environment` where all the necessary files and directories will be created and copied.
+To run the game engine, all you have to do is execute the `run_test_env.sh` script. Without any flags, it will copy the `main.py` for each player and run the game engine to completion. It does this by creating a testing subdirectory `testing_environment` where all the necessary files and directories will be created and copied.
 
 To debug the engine or submission code, you can add optional flags. *Warning*: the game engine has strict timeouts so, before debugging and running the script, update the timeout values in `engine/config/ioconfig.py`.  
 - Executing `./run_test_env.sh -e` will setup the test environment and start the submissions but wont start the game engine. This allows you to run the `testing_environment/engine` Python module with a debugger. Note: it is recommended to make your working directory `testing_environment` and use the provided `debug_engine.py` script to easily debug without needing to execute the module itself.
