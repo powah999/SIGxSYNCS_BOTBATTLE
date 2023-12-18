@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenovo/Desktop/SIG/enginemain/testing_environment/submission3/submission.py", line 7, in <module>
+    bot_battle = BotBattle()
+  File "/mnt/c/Users/Lenovo/Desktop/SIG/enginemain/testing_environment/submission3/submissionhelper/botbattle.py", line 12, in __init__
+    self._from_engine = open("./io/from_engine.pipe", "r", encoding = "utf-8") 
+FileNotFoundError: [Errno 2] No such file or directory: './io/from_engine.pipe'
